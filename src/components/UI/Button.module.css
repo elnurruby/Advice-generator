@@ -1,0 +1,21 @@
+.dice-btn {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: var(--neon-green);
+    border: none;
+    position: absolute;
+    bottom: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .dice-btn:hover {
+     cursor: pointer;
+     box-shadow: 0 0 1rem .5rem hsla(150, 100%, 66%, .5);
+ }
+
+ .dice-btn:active{
+     transform: scale(.9);
+ }
